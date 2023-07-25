@@ -4,9 +4,8 @@ import styled from "@emotion/styled";
 const ImgStyled = styled.div`
   position: relative;
   display: flex;
-  justify-content: center;
-  width: 256px;
-  height: 356px;
+  width: 128px;
+  height: 128px;
   border-radius: 0 24px 0 24px;
   background-color: red;
   img {
@@ -15,13 +14,13 @@ const ImgStyled = styled.div`
   }
   p {
     position: absolute;
-    width: 248px;
+    width: 120px;
     bottom: 0;
     text-align: center;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 12px;
     margin: 0 auto;
     padding: 4px;
     text-transform: capitalize;
